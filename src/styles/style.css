@@ -1,0 +1,57 @@
+body {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	--main-color: #EE2E3D;
+	font-size: 0.9em;
+}
+
+.card {
+	width: 100%;
+}
+
+.bg-circle {
+	padding: 5px;
+	color: white;
+	border-radius: 50%;
+	background-color: darkslategrey;
+}
+
+.new-icon {
+	color: white;
+	padding: 5px 10px 5px 10px;
+	background-color: darkslategrey;
+	border-radius: 35px;
+}
+
+.low-opacity {
+	opacity: 0.5;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: inherit;
+}
+
+.wide {
+	max-width: 1000px;
+	width: 500px;
+}
+
+.user-img {
+	border-radius: 50%;
+}
+
+.cut-text {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	height: 3em;
+	width: 250px;
+}
+
+.ui-datepicker-trigger {
+	border:none;
+	background:none;
+}
